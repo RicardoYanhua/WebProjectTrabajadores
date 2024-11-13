@@ -46,7 +46,7 @@
 </head>
 <body>
 <%
-String url = "http://localhost:8080/POO2ExamenParcial/";
+String url = "http://localhost:8080/WebProjectTrabajadores/";
 List<Object[]> listaAreas= (List<Object[]>) request.getAttribute("listaArea");
 List<Object[]> listaProfesion= (List<Object[]>) request.getAttribute("listaProfesion");
 

@@ -46,7 +46,7 @@
 </head>
 <body>
 <%
-String url = "http://localhost:8080/POO2ExamenParcial/";
+String url = "http://localhost:8080/WebProjectTrabajadores/";
 Trabajador trabajador;
 if((Trabajador) request.getAttribute("trabajador") == null){
 	trabajador = new Trabajador();

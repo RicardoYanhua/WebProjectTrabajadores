@@ -54,7 +54,7 @@
 </head>
 <body>
 <%
-String url = "http://localhost:8080/POO2ExamenParcial/";
+String url = "http://localhost:8080/WebProjectTrabajadores/";
 %>
 
 	<div class = "container">

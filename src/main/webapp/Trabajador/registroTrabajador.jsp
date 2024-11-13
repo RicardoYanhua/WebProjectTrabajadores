@@ -11,7 +11,7 @@
 <body>
 
 <%
-String url = "http://localhost:8080/POO2ExamenParcial/";
+String url = "http://localhost:8080/WebProjectTrabajadores/";
 List<Object[]> listaTrabajador= (List<Object[]>) request.getAttribute("listaTrabajador");
 %>
 
@@ -44,7 +44,7 @@ List<Object[]> listaTrabajador= (List<Object[]>) request.getAttribute("listaTrab
 						if(listaTrabajador != null){
 							for (Object[] t : listaTrabajador){
 					%>
-						<tr>
+						<tr >
 							<td name = "idtrabajador"><%=t[0]%></td>
 							<td name = "nombres"><%=t[1]%></td>
 							<td name = "area"><%=t[2]%></td>
